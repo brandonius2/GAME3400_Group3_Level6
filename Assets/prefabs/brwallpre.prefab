@@ -9246,6 +9246,7 @@ GameObject:
   - component: {fileID: 3119069370571364654}
   - component: {fileID: 425374259198874304}
   - component: {fileID: 8270685296253041515}
+  - component: {fileID: 8167211541949967464}
   m_Layer: 0
   m_Name: brwall
   m_TagString: Untagged
@@ -9584,6 +9585,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &8167211541949967464
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6212976150369469832}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.26, y: 3, z: 0.61}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6584880619770854263
 GameObject:
   m_ObjectHideFlags: 0
